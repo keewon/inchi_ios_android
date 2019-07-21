@@ -1,5 +1,8 @@
 # InChI build for Android/iOS
 
+InChI : https://www.inchi-trust.org/downloads/ 
+
+
 Tested/Built on MacOSX
 
 
