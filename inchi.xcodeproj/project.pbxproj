@@ -1,0 +1,1111 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B86FBDF1E6E096200B7335C /* ichi_bns.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578DC1E674B6C00623568 /* ichi_bns.c */; };
+		6B86FBE01E6E096200B7335C /* ichi_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578DD1E674B6C00623568 /* ichi_io.c */; };
+		6B86FBE11E6E096200B7335C /* ichican2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578DE1E674B6C00623568 /* ichican2.c */; };
+		6B86FBE21E6E096200B7335C /* ichicano.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578DF1E674B6C00623568 /* ichicano.c */; };
+		6B86FBE31E6E096200B7335C /* ichicans.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578E01E674B6C00623568 /* ichicans.c */; };
+		6B86FBE41E6E096200B7335C /* ichierr.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578E11E674B6C00623568 /* ichierr.c */; };
+		6B86FBE51E6E096200B7335C /* ichiisot.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578E21E674B6C00623568 /* ichiisot.c */; };
+		6B86FBE61E6E096200B7335C /* ichimak2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578E31E674B6C00623568 /* ichimak2.c */; };
+		6B86FBE71E6E096200B7335C /* ichimake.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578E41E674B6C00623568 /* ichimake.c */; };
+		6B86FBE81E6E096200B7335C /* ichimap1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578E51E674B6C00623568 /* ichimap1.c */; };
+		6B86FBE91E6E096200B7335C /* ichimap2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578E61E674B6C00623568 /* ichimap2.c */; };
+		6B86FBEA1E6E096200B7335C /* ichimap4.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578E71E674B6C00623568 /* ichimap4.c */; };
+		6B86FBEB1E6E096200B7335C /* ichinorm.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578E81E674B6C00623568 /* ichinorm.c */; };
+		6B86FBEC1E6E096200B7335C /* ichiparm.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578E91E674B6C00623568 /* ichiparm.c */; };
+		6B86FBED1E6E096200B7335C /* ichiprt1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578EA1E674B6C00623568 /* ichiprt1.c */; };
+		6B86FBEE1E6E096200B7335C /* ichiprt2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578EB1E674B6C00623568 /* ichiprt2.c */; };
+		6B86FBEF1E6E096200B7335C /* ichiprt3.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578EC1E674B6C00623568 /* ichiprt3.c */; };
+		6B86FBF01E6E096200B7335C /* ichiqueu.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578ED1E674B6C00623568 /* ichiqueu.c */; };
+		6B86FBF11E6E096200B7335C /* ichiread.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578EE1E674B6C00623568 /* ichiread.c */; };
+		6B86FBF21E6E096200B7335C /* ichiring.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578EF1E674B6C00623568 /* ichiring.c */; };
+		6B86FBF31E6E096200B7335C /* ichirvr1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578F01E674B6C00623568 /* ichirvr1.c */; };
+		6B86FBF41E6E096200B7335C /* ichirvr2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578F11E674B6C00623568 /* ichirvr2.c */; };
+		6B86FBF51E6E096200B7335C /* ichirvr3.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578F21E674B6C00623568 /* ichirvr3.c */; };
+		6B86FBF61E6E096200B7335C /* ichirvr4.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578F31E674B6C00623568 /* ichirvr4.c */; };
+		6B86FBF71E6E096200B7335C /* ichirvr5.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578F41E674B6C00623568 /* ichirvr5.c */; };
+		6B86FBF81E6E096200B7335C /* ichirvr6.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578F51E674B6C00623568 /* ichirvr6.c */; };
+		6B86FBF91E6E096200B7335C /* ichirvr7.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578F61E674B6C00623568 /* ichirvr7.c */; };
+		6B86FBFA1E6E096200B7335C /* ichisort.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578F71E674B6C00623568 /* ichisort.c */; };
+		6B86FBFB1E6E096200B7335C /* ichister.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578F81E674B6C00623568 /* ichister.c */; };
+		6B86FBFC1E6E096200B7335C /* ichitaut.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578F91E674B6C00623568 /* ichitaut.c */; };
+		6B86FBFD1E6E096200B7335C /* ikey_base26.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578FA1E674B6C00623568 /* ikey_base26.c */; };
+		6B86FBFE1E6E096200B7335C /* ikey_dll.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578FB1E674B6C00623568 /* ikey_dll.c */; };
+		6B86FBFF1E6E096200B7335C /* inchi_gui.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578FC1E674B6C00623568 /* inchi_gui.c */; };
+		6B86FC001E6E096200B7335C /* mol_fmt1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578FD1E674B6C00623568 /* mol_fmt1.c */; };
+		6B86FC011E6E096200B7335C /* mol_fmt2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578FE1E674B6C00623568 /* mol_fmt2.c */; };
+		6B86FC021E6E096200B7335C /* mol_fmt3.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578FF1E674B6C00623568 /* mol_fmt3.c */; };
+		6B86FC031E6E096200B7335C /* mol_fmt4.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE579001E674B6C00623568 /* mol_fmt4.c */; };
+		6B86FC041E6E096200B7335C /* mol2atom.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE579011E674B6C00623568 /* mol2atom.c */; };
+		6B86FC051E6E096200B7335C /* readinch.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE579021E674B6C00623568 /* readinch.c */; };
+		6B86FC061E6E096200B7335C /* runichi.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE579031E674B6C00623568 /* runichi.c */; };
+		6B86FC071E6E096200B7335C /* runichi2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE579041E674B6C00623568 /* runichi2.c */; };
+		6B86FC081E6E096200B7335C /* runichi3.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE579051E674B6C00623568 /* runichi3.c */; };
+		6B86FC091E6E096200B7335C /* runichi4.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE579061E674B6C00623568 /* runichi4.c */; };
+		6B86FC0A1E6E096200B7335C /* sha2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE579071E674B6C00623568 /* sha2.c */; };
+		6B86FC0B1E6E096200B7335C /* strutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE579081E674B6C00623568 /* strutil.c */; };
+		6B86FC0C1E6E096200B7335C /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE579091E674B6C00623568 /* util.c */; };
+		6B86FC0D1E6E096C00B7335C /* ichilnct.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578CE1E674B3800623568 /* ichilnct.c */; };
+		6B86FC0E1E6E096C00B7335C /* inchi_dll_a.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578CF1E674B3800623568 /* inchi_dll_a.c */; };
+		6B86FC0F1E6E096C00B7335C /* inchi_dll_a2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578D01E674B3800623568 /* inchi_dll_a2.c */; };
+		6B86FC101E6E096C00B7335C /* inchi_dll_b.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578D11E674B3800623568 /* inchi_dll_b.c */; };
+		6B86FC111E6E096C00B7335C /* inchi_dll_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578D21E674B3800623568 /* inchi_dll_main.c */; };
+		6B86FC121E6E096C00B7335C /* inchi_dll.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578D31E674B3800623568 /* inchi_dll.c */; };
+		6B86FC201E6E0A1E00B7335C /* libinchi-static-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B86FBD61E6E092E00B7335C /* libinchi-static-ios.a */; };
+		6B86FC231E6E0A4000B7335C /* lua_inchi.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578B91E67393300623568 /* lua_inchi.c */; };
+		6BA1ECFC1E674D3700803C79 /* liblua.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE578BF1E67409300623568 /* liblua.1.dylib */; };
+		6BE578AA1E67327900623568 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578A91E67327900623568 /* main.c */; };
+		6BE578BB1E67393300623568 /* lua_inchi.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578B91E67393300623568 /* lua_inchi.c */; };
+		6BE578D41E674B3800623568 /* ichilnct.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578CE1E674B3800623568 /* ichilnct.c */; };
+		6BE578D51E674B3800623568 /* inchi_dll_a.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578CF1E674B3800623568 /* inchi_dll_a.c */; };
+		6BE578D61E674B3800623568 /* inchi_dll_a2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578D01E674B3800623568 /* inchi_dll_a2.c */; };
+		6BE578D71E674B3800623568 /* inchi_dll_b.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578D11E674B3800623568 /* inchi_dll_b.c */; };
+		6BE578D81E674B3800623568 /* inchi_dll_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578D21E674B3800623568 /* inchi_dll_main.c */; };
+		6BE578D91E674B3800623568 /* inchi_dll.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578D31E674B3800623568 /* inchi_dll.c */; };
+		6BE5790A1E674B6C00623568 /* ichi_bns.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578DC1E674B6C00623568 /* ichi_bns.c */; };
+		6BE5790B1E674B6C00623568 /* ichi_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578DD1E674B6C00623568 /* ichi_io.c */; };
+		6BE5790C1E674B6C00623568 /* ichican2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578DE1E674B6C00623568 /* ichican2.c */; };
+		6BE5790D1E674B6C00623568 /* ichicano.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578DF1E674B6C00623568 /* ichicano.c */; };
+		6BE5790E1E674B6C00623568 /* ichicans.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578E01E674B6C00623568 /* ichicans.c */; };
+		6BE5790F1E674B6C00623568 /* ichierr.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578E11E674B6C00623568 /* ichierr.c */; };
+		6BE579101E674B6C00623568 /* ichiisot.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578E21E674B6C00623568 /* ichiisot.c */; };
+		6BE579111E674B6C00623568 /* ichimak2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578E31E674B6C00623568 /* ichimak2.c */; };
+		6BE579121E674B6C00623568 /* ichimake.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578E41E674B6C00623568 /* ichimake.c */; };
+		6BE579131E674B6C00623568 /* ichimap1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578E51E674B6C00623568 /* ichimap1.c */; };
+		6BE579141E674B6C00623568 /* ichimap2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578E61E674B6C00623568 /* ichimap2.c */; };
+		6BE579151E674B6C00623568 /* ichimap4.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578E71E674B6C00623568 /* ichimap4.c */; };
+		6BE579161E674B6C00623568 /* ichinorm.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578E81E674B6C00623568 /* ichinorm.c */; };
+		6BE579171E674B6C00623568 /* ichiparm.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578E91E674B6C00623568 /* ichiparm.c */; };
+		6BE579181E674B6C00623568 /* ichiprt1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578EA1E674B6C00623568 /* ichiprt1.c */; };
+		6BE579191E674B6C00623568 /* ichiprt2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578EB1E674B6C00623568 /* ichiprt2.c */; };
+		6BE5791A1E674B6C00623568 /* ichiprt3.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578EC1E674B6C00623568 /* ichiprt3.c */; };
+		6BE5791B1E674B6C00623568 /* ichiqueu.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578ED1E674B6C00623568 /* ichiqueu.c */; };
+		6BE5791C1E674B6C00623568 /* ichiread.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578EE1E674B6C00623568 /* ichiread.c */; };
+		6BE5791D1E674B6C00623568 /* ichiring.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578EF1E674B6C00623568 /* ichiring.c */; };
+		6BE5791E1E674B6C00623568 /* ichirvr1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578F01E674B6C00623568 /* ichirvr1.c */; };
+		6BE5791F1E674B6C00623568 /* ichirvr2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578F11E674B6C00623568 /* ichirvr2.c */; };
+		6BE579201E674B6C00623568 /* ichirvr3.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578F21E674B6C00623568 /* ichirvr3.c */; };
+		6BE579211E674B6C00623568 /* ichirvr4.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578F31E674B6C00623568 /* ichirvr4.c */; };
+		6BE579221E674B6C00623568 /* ichirvr5.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578F41E674B6C00623568 /* ichirvr5.c */; };
+		6BE579231E674B6C00623568 /* ichirvr6.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578F51E674B6C00623568 /* ichirvr6.c */; };
+		6BE579241E674B6C00623568 /* ichirvr7.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578F61E674B6C00623568 /* ichirvr7.c */; };
+		6BE579251E674B6C00623568 /* ichisort.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578F71E674B6C00623568 /* ichisort.c */; };
+		6BE579261E674B6C00623568 /* ichister.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578F81E674B6C00623568 /* ichister.c */; };
+		6BE579271E674B6C00623568 /* ichitaut.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578F91E674B6C00623568 /* ichitaut.c */; };
+		6BE579281E674B6C00623568 /* ikey_base26.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578FA1E674B6C00623568 /* ikey_base26.c */; };
+		6BE579291E674B6C00623568 /* ikey_dll.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578FB1E674B6C00623568 /* ikey_dll.c */; };
+		6BE5792A1E674B6C00623568 /* inchi_gui.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578FC1E674B6C00623568 /* inchi_gui.c */; };
+		6BE5792B1E674B6C00623568 /* mol_fmt1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578FD1E674B6C00623568 /* mol_fmt1.c */; };
+		6BE5792C1E674B6C00623568 /* mol_fmt2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578FE1E674B6C00623568 /* mol_fmt2.c */; };
+		6BE5792D1E674B6C00623568 /* mol_fmt3.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578FF1E674B6C00623568 /* mol_fmt3.c */; };
+		6BE5792E1E674B6C00623568 /* mol_fmt4.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE579001E674B6C00623568 /* mol_fmt4.c */; };
+		6BE5792F1E674B6C00623568 /* mol2atom.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE579011E674B6C00623568 /* mol2atom.c */; };
+		6BE579301E674B6C00623568 /* readinch.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE579021E674B6C00623568 /* readinch.c */; };
+		6BE579311E674B6C00623568 /* runichi.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE579031E674B6C00623568 /* runichi.c */; };
+		6BE579321E674B6C00623568 /* runichi2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE579041E674B6C00623568 /* runichi2.c */; };
+		6BE579331E674B6C00623568 /* runichi3.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE579051E674B6C00623568 /* runichi3.c */; };
+		6BE579341E674B6C00623568 /* runichi4.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE579061E674B6C00623568 /* runichi4.c */; };
+		6BE579351E674B6C00623568 /* sha2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE579071E674B6C00623568 /* sha2.c */; };
+		6BE579361E674B6C00623568 /* strutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE579081E674B6C00623568 /* strutil.c */; };
+		6BE579371E674B6C00623568 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE579091E674B6C00623568 /* util.c */; };
+		6BE579381E674BCE00623568 /* liblibinchi-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE578CA1E674B0A00623568 /* liblibinchi-static.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B86FC211E6E0A2800B7335C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BE578261E672F2100623568 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B86FBD51E6E092E00B7335C;
+			remoteInfo = "libinchi-static-ios";
+		};
+		6BE579391E674BDB00623568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BE578261E672F2100623568 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BE578C91E674B0A00623568;
+			remoteInfo = "libinchi-static";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B86FBD41E6E092E00B7335C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B86FC151E6E0A1000B7335C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE578A51E67327900623568 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6B86FBD61E6E092E00B7335C /* libinchi-static-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libinchi-static-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B86FC171E6E0A1000B7335C /* liblua-inchi-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblua-inchi-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE5783A1E67309400623568 /* ichi_bns.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichi_bns.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichi_bns.c"; sourceTree = "<group>"; };
+		6BE5783B1E67309400623568 /* ichi_io.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichi_io.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichi_io.c"; sourceTree = "<group>"; };
+		6BE5783C1E67309400623568 /* ichican2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichican2.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichican2.c"; sourceTree = "<group>"; };
+		6BE5783D1E67309400623568 /* ichicano.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichicano.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichicano.c"; sourceTree = "<group>"; };
+		6BE5783E1E67309400623568 /* ichicans.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichicans.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichicans.c"; sourceTree = "<group>"; };
+		6BE5783F1E67309400623568 /* ichierr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichierr.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichierr.c"; sourceTree = "<group>"; };
+		6BE578401E67309400623568 /* ichiisot.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichiisot.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichiisot.c"; sourceTree = "<group>"; };
+		6BE578411E67309400623568 /* ichimak2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichimak2.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichimak2.c"; sourceTree = "<group>"; };
+		6BE578421E67309400623568 /* ichimake.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichimake.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichimake.c"; sourceTree = "<group>"; };
+		6BE578431E67309400623568 /* ichimap1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichimap1.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichimap1.c"; sourceTree = "<group>"; };
+		6BE578441E67309400623568 /* ichimap2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichimap2.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichimap2.c"; sourceTree = "<group>"; };
+		6BE578451E67309400623568 /* ichimap4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichimap4.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichimap4.c"; sourceTree = "<group>"; };
+		6BE578461E67309400623568 /* ichinorm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichinorm.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichinorm.c"; sourceTree = "<group>"; };
+		6BE578471E67309400623568 /* ichiparm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichiparm.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichiparm.c"; sourceTree = "<group>"; };
+		6BE578481E67309400623568 /* ichiprt1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichiprt1.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichiprt1.c"; sourceTree = "<group>"; };
+		6BE578491E67309400623568 /* ichiprt2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichiprt2.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichiprt2.c"; sourceTree = "<group>"; };
+		6BE5784A1E67309400623568 /* ichiprt3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichiprt3.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichiprt3.c"; sourceTree = "<group>"; };
+		6BE5784B1E67309400623568 /* ichiqueu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichiqueu.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichiqueu.c"; sourceTree = "<group>"; };
+		6BE5784C1E67309400623568 /* ichiread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichiread.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichiread.c"; sourceTree = "<group>"; };
+		6BE5784D1E67309400623568 /* ichiring.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichiring.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichiring.c"; sourceTree = "<group>"; };
+		6BE5784E1E67309400623568 /* ichirvr1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichirvr1.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichirvr1.c"; sourceTree = "<group>"; };
+		6BE5784F1E67309400623568 /* ichirvr2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichirvr2.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichirvr2.c"; sourceTree = "<group>"; };
+		6BE578501E67309400623568 /* ichirvr3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichirvr3.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichirvr3.c"; sourceTree = "<group>"; };
+		6BE578511E67309400623568 /* ichirvr4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichirvr4.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichirvr4.c"; sourceTree = "<group>"; };
+		6BE578521E67309400623568 /* ichirvr5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichirvr5.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichirvr5.c"; sourceTree = "<group>"; };
+		6BE578531E67309400623568 /* ichirvr6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichirvr6.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichirvr6.c"; sourceTree = "<group>"; };
+		6BE578541E67309400623568 /* ichirvr7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichirvr7.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichirvr7.c"; sourceTree = "<group>"; };
+		6BE578551E67309400623568 /* ichisort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichisort.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichisort.c"; sourceTree = "<group>"; };
+		6BE578561E67309400623568 /* ichister.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichister.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichister.c"; sourceTree = "<group>"; };
+		6BE578571E67309400623568 /* ichitaut.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichitaut.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichitaut.c"; sourceTree = "<group>"; };
+		6BE578581E67309400623568 /* ikey_base26.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ikey_base26.c; path = "INCHI-1-SRC/INCHI_BASE/src/ikey_base26.c"; sourceTree = "<group>"; };
+		6BE578591E67309400623568 /* ikey_dll.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ikey_dll.c; path = "INCHI-1-SRC/INCHI_BASE/src/ikey_dll.c"; sourceTree = "<group>"; };
+		6BE5785A1E67309400623568 /* inchi_gui.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = inchi_gui.c; path = "INCHI-1-SRC/INCHI_BASE/src/inchi_gui.c"; sourceTree = "<group>"; };
+		6BE5785B1E67309400623568 /* mol_fmt1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mol_fmt1.c; path = "INCHI-1-SRC/INCHI_BASE/src/mol_fmt1.c"; sourceTree = "<group>"; };
+		6BE5785C1E67309400623568 /* mol_fmt2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mol_fmt2.c; path = "INCHI-1-SRC/INCHI_BASE/src/mol_fmt2.c"; sourceTree = "<group>"; };
+		6BE5785D1E67309400623568 /* mol_fmt3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mol_fmt3.c; path = "INCHI-1-SRC/INCHI_BASE/src/mol_fmt3.c"; sourceTree = "<group>"; };
+		6BE5785E1E67309400623568 /* mol_fmt4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mol_fmt4.c; path = "INCHI-1-SRC/INCHI_BASE/src/mol_fmt4.c"; sourceTree = "<group>"; };
+		6BE5785F1E67309400623568 /* mol2atom.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mol2atom.c; path = "INCHI-1-SRC/INCHI_BASE/src/mol2atom.c"; sourceTree = "<group>"; };
+		6BE578601E67309400623568 /* readinch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = readinch.c; path = "INCHI-1-SRC/INCHI_BASE/src/readinch.c"; sourceTree = "<group>"; };
+		6BE578611E67309400623568 /* runichi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = runichi.c; path = "INCHI-1-SRC/INCHI_BASE/src/runichi.c"; sourceTree = "<group>"; };
+		6BE578621E67309400623568 /* runichi2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = runichi2.c; path = "INCHI-1-SRC/INCHI_BASE/src/runichi2.c"; sourceTree = "<group>"; };
+		6BE578631E67309400623568 /* runichi3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = runichi3.c; path = "INCHI-1-SRC/INCHI_BASE/src/runichi3.c"; sourceTree = "<group>"; };
+		6BE578641E67309400623568 /* runichi4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = runichi4.c; path = "INCHI-1-SRC/INCHI_BASE/src/runichi4.c"; sourceTree = "<group>"; };
+		6BE578651E67309400623568 /* sha2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = sha2.c; path = "INCHI-1-SRC/INCHI_BASE/src/sha2.c"; sourceTree = "<group>"; };
+		6BE578661E67309400623568 /* strutil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = strutil.c; path = "INCHI-1-SRC/INCHI_BASE/src/strutil.c"; sourceTree = "<group>"; };
+		6BE578671E67309400623568 /* util.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = util.c; path = "INCHI-1-SRC/INCHI_BASE/src/util.c"; sourceTree = "<group>"; };
+		6BE578961E67317300623568 /* ichilnct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichilnct.c; path = "INCHI-1-SRC/INCHI_API/libinchi/src/ichilnct.c"; sourceTree = "<group>"; };
+		6BE578971E67317300623568 /* inchi_dll_a.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = inchi_dll_a.c; path = "INCHI-1-SRC/INCHI_API/libinchi/src/inchi_dll_a.c"; sourceTree = "<group>"; };
+		6BE578981E67317300623568 /* inchi_dll_a2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = inchi_dll_a2.c; path = "INCHI-1-SRC/INCHI_API/libinchi/src/inchi_dll_a2.c"; sourceTree = "<group>"; };
+		6BE578991E67317300623568 /* inchi_dll_b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = inchi_dll_b.c; path = "INCHI-1-SRC/INCHI_API/libinchi/src/inchi_dll_b.c"; sourceTree = "<group>"; };
+		6BE5789A1E67317300623568 /* inchi_dll_main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = inchi_dll_main.c; path = "INCHI-1-SRC/INCHI_API/libinchi/src/inchi_dll_main.c"; sourceTree = "<group>"; };
+		6BE5789B1E67317300623568 /* inchi_dll.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = inchi_dll.c; path = "INCHI-1-SRC/INCHI_API/libinchi/src/inchi_dll.c"; sourceTree = "<group>"; };
+		6BE578A71E67327900623568 /* mol2inchi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mol2inchi; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE578A91E67327900623568 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		6BE578B31E6738DE00623568 /* libluainchi.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libluainchi.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE578B91E67393300623568 /* lua_inchi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lua_inchi.c; path = "lua-inchi/lua_inchi.c"; sourceTree = "<group>"; };
+		6BE578BF1E67409300623568 /* liblua.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblua.1.dylib; path = "lua-inchi/gideros/lib/desktop/liblua.1.dylib"; sourceTree = "<group>"; };
+		6BE578CA1E674B0A00623568 /* liblibinchi-static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblibinchi-static.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE578CE1E674B3800623568 /* ichilnct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichilnct.c; path = "INCHI-1-SRC/INCHI_API/libinchi/src/ichilnct.c"; sourceTree = "<group>"; };
+		6BE578CF1E674B3800623568 /* inchi_dll_a.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = inchi_dll_a.c; path = "INCHI-1-SRC/INCHI_API/libinchi/src/inchi_dll_a.c"; sourceTree = "<group>"; };
+		6BE578D01E674B3800623568 /* inchi_dll_a2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = inchi_dll_a2.c; path = "INCHI-1-SRC/INCHI_API/libinchi/src/inchi_dll_a2.c"; sourceTree = "<group>"; };
+		6BE578D11E674B3800623568 /* inchi_dll_b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = inchi_dll_b.c; path = "INCHI-1-SRC/INCHI_API/libinchi/src/inchi_dll_b.c"; sourceTree = "<group>"; };
+		6BE578D21E674B3800623568 /* inchi_dll_main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = inchi_dll_main.c; path = "INCHI-1-SRC/INCHI_API/libinchi/src/inchi_dll_main.c"; sourceTree = "<group>"; };
+		6BE578D31E674B3800623568 /* inchi_dll.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = inchi_dll.c; path = "INCHI-1-SRC/INCHI_API/libinchi/src/inchi_dll.c"; sourceTree = "<group>"; };
+		6BE578DC1E674B6C00623568 /* ichi_bns.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichi_bns.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichi_bns.c"; sourceTree = "<group>"; };
+		6BE578DD1E674B6C00623568 /* ichi_io.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichi_io.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichi_io.c"; sourceTree = "<group>"; };
+		6BE578DE1E674B6C00623568 /* ichican2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichican2.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichican2.c"; sourceTree = "<group>"; };
+		6BE578DF1E674B6C00623568 /* ichicano.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichicano.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichicano.c"; sourceTree = "<group>"; };
+		6BE578E01E674B6C00623568 /* ichicans.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichicans.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichicans.c"; sourceTree = "<group>"; };
+		6BE578E11E674B6C00623568 /* ichierr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichierr.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichierr.c"; sourceTree = "<group>"; };
+		6BE578E21E674B6C00623568 /* ichiisot.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichiisot.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichiisot.c"; sourceTree = "<group>"; };
+		6BE578E31E674B6C00623568 /* ichimak2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichimak2.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichimak2.c"; sourceTree = "<group>"; };
+		6BE578E41E674B6C00623568 /* ichimake.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichimake.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichimake.c"; sourceTree = "<group>"; };
+		6BE578E51E674B6C00623568 /* ichimap1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichimap1.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichimap1.c"; sourceTree = "<group>"; };
+		6BE578E61E674B6C00623568 /* ichimap2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichimap2.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichimap2.c"; sourceTree = "<group>"; };
+		6BE578E71E674B6C00623568 /* ichimap4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichimap4.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichimap4.c"; sourceTree = "<group>"; };
+		6BE578E81E674B6C00623568 /* ichinorm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichinorm.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichinorm.c"; sourceTree = "<group>"; };
+		6BE578E91E674B6C00623568 /* ichiparm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichiparm.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichiparm.c"; sourceTree = "<group>"; };
+		6BE578EA1E674B6C00623568 /* ichiprt1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichiprt1.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichiprt1.c"; sourceTree = "<group>"; };
+		6BE578EB1E674B6C00623568 /* ichiprt2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichiprt2.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichiprt2.c"; sourceTree = "<group>"; };
+		6BE578EC1E674B6C00623568 /* ichiprt3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichiprt3.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichiprt3.c"; sourceTree = "<group>"; };
+		6BE578ED1E674B6C00623568 /* ichiqueu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichiqueu.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichiqueu.c"; sourceTree = "<group>"; };
+		6BE578EE1E674B6C00623568 /* ichiread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichiread.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichiread.c"; sourceTree = "<group>"; };
+		6BE578EF1E674B6C00623568 /* ichiring.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichiring.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichiring.c"; sourceTree = "<group>"; };
+		6BE578F01E674B6C00623568 /* ichirvr1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichirvr1.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichirvr1.c"; sourceTree = "<group>"; };
+		6BE578F11E674B6C00623568 /* ichirvr2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichirvr2.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichirvr2.c"; sourceTree = "<group>"; };
+		6BE578F21E674B6C00623568 /* ichirvr3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichirvr3.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichirvr3.c"; sourceTree = "<group>"; };
+		6BE578F31E674B6C00623568 /* ichirvr4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichirvr4.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichirvr4.c"; sourceTree = "<group>"; };
+		6BE578F41E674B6C00623568 /* ichirvr5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichirvr5.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichirvr5.c"; sourceTree = "<group>"; };
+		6BE578F51E674B6C00623568 /* ichirvr6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichirvr6.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichirvr6.c"; sourceTree = "<group>"; };
+		6BE578F61E674B6C00623568 /* ichirvr7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichirvr7.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichirvr7.c"; sourceTree = "<group>"; };
+		6BE578F71E674B6C00623568 /* ichisort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichisort.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichisort.c"; sourceTree = "<group>"; };
+		6BE578F81E674B6C00623568 /* ichister.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichister.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichister.c"; sourceTree = "<group>"; };
+		6BE578F91E674B6C00623568 /* ichitaut.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichitaut.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichitaut.c"; sourceTree = "<group>"; };
+		6BE578FA1E674B6C00623568 /* ikey_base26.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ikey_base26.c; path = "INCHI-1-SRC/INCHI_BASE/src/ikey_base26.c"; sourceTree = "<group>"; };
+		6BE578FB1E674B6C00623568 /* ikey_dll.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ikey_dll.c; path = "INCHI-1-SRC/INCHI_BASE/src/ikey_dll.c"; sourceTree = "<group>"; };
+		6BE578FC1E674B6C00623568 /* inchi_gui.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = inchi_gui.c; path = "INCHI-1-SRC/INCHI_BASE/src/inchi_gui.c"; sourceTree = "<group>"; };
+		6BE578FD1E674B6C00623568 /* mol_fmt1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mol_fmt1.c; path = "INCHI-1-SRC/INCHI_BASE/src/mol_fmt1.c"; sourceTree = "<group>"; };
+		6BE578FE1E674B6C00623568 /* mol_fmt2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mol_fmt2.c; path = "INCHI-1-SRC/INCHI_BASE/src/mol_fmt2.c"; sourceTree = "<group>"; };
+		6BE578FF1E674B6C00623568 /* mol_fmt3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mol_fmt3.c; path = "INCHI-1-SRC/INCHI_BASE/src/mol_fmt3.c"; sourceTree = "<group>"; };
+		6BE579001E674B6C00623568 /* mol_fmt4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mol_fmt4.c; path = "INCHI-1-SRC/INCHI_BASE/src/mol_fmt4.c"; sourceTree = "<group>"; };
+		6BE579011E674B6C00623568 /* mol2atom.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mol2atom.c; path = "INCHI-1-SRC/INCHI_BASE/src/mol2atom.c"; sourceTree = "<group>"; };
+		6BE579021E674B6C00623568 /* readinch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = readinch.c; path = "INCHI-1-SRC/INCHI_BASE/src/readinch.c"; sourceTree = "<group>"; };
+		6BE579031E674B6C00623568 /* runichi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = runichi.c; path = "INCHI-1-SRC/INCHI_BASE/src/runichi.c"; sourceTree = "<group>"; };
+		6BE579041E674B6C00623568 /* runichi2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = runichi2.c; path = "INCHI-1-SRC/INCHI_BASE/src/runichi2.c"; sourceTree = "<group>"; };
+		6BE579051E674B6C00623568 /* runichi3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = runichi3.c; path = "INCHI-1-SRC/INCHI_BASE/src/runichi3.c"; sourceTree = "<group>"; };
+		6BE579061E674B6C00623568 /* runichi4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = runichi4.c; path = "INCHI-1-SRC/INCHI_BASE/src/runichi4.c"; sourceTree = "<group>"; };
+		6BE579071E674B6C00623568 /* sha2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = sha2.c; path = "INCHI-1-SRC/INCHI_BASE/src/sha2.c"; sourceTree = "<group>"; };
+		6BE579081E674B6C00623568 /* strutil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = strutil.c; path = "INCHI-1-SRC/INCHI_BASE/src/strutil.c"; sourceTree = "<group>"; };
+		6BE579091E674B6C00623568 /* util.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = util.c; path = "INCHI-1-SRC/INCHI_BASE/src/util.c"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B86FBD31E6E092E00B7335C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B86FC141E6E0A1000B7335C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B86FC201E6E0A1E00B7335C /* libinchi-static-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE578A41E67327900623568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE578B01E6738DE00623568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE579381E674BCE00623568 /* liblibinchi-static.a in Frameworks */,
+				6BA1ECFC1E674D3700803C79 /* liblua.1.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE578C71E674B0A00623568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BE578251E672F2100623568 = {
+			isa = PBXGroup;
+			children = (
+				6BE578DB1E674B4F00623568 /* src3 */,
+				6BE578DA1E674B4200623568 /* src2 */,
+				6BE578BF1E67409300623568 /* liblua.1.dylib */,
+				6BE578B81E6738F500623568 /* lua-inchi */,
+				6BE578A21E67318500623568 /* src */,
+				6BE578A81E67327900623568 /* mol2inchi */,
+				6BE5782F1E672F2200623568 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BE5782F1E672F2200623568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BE578A71E67327900623568 /* mol2inchi */,
+				6BE578B31E6738DE00623568 /* libluainchi.dylib */,
+				6BE578CA1E674B0A00623568 /* liblibinchi-static.a */,
+				6B86FBD61E6E092E00B7335C /* libinchi-static-ios.a */,
+				6B86FC171E6E0A1000B7335C /* liblua-inchi-ios.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BE578A21E67318500623568 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6BE578961E67317300623568 /* ichilnct.c */,
+				6BE578971E67317300623568 /* inchi_dll_a.c */,
+				6BE578981E67317300623568 /* inchi_dll_a2.c */,
+				6BE578991E67317300623568 /* inchi_dll_b.c */,
+				6BE5789A1E67317300623568 /* inchi_dll_main.c */,
+				6BE5789B1E67317300623568 /* inchi_dll.c */,
+				6BE5783A1E67309400623568 /* ichi_bns.c */,
+				6BE5783B1E67309400623568 /* ichi_io.c */,
+				6BE5783C1E67309400623568 /* ichican2.c */,
+				6BE5783D1E67309400623568 /* ichicano.c */,
+				6BE5783E1E67309400623568 /* ichicans.c */,
+				6BE5783F1E67309400623568 /* ichierr.c */,
+				6BE578401E67309400623568 /* ichiisot.c */,
+				6BE578411E67309400623568 /* ichimak2.c */,
+				6BE578421E67309400623568 /* ichimake.c */,
+				6BE578431E67309400623568 /* ichimap1.c */,
+				6BE578441E67309400623568 /* ichimap2.c */,
+				6BE578451E67309400623568 /* ichimap4.c */,
+				6BE578461E67309400623568 /* ichinorm.c */,
+				6BE578471E67309400623568 /* ichiparm.c */,
+				6BE578481E67309400623568 /* ichiprt1.c */,
+				6BE578491E67309400623568 /* ichiprt2.c */,
+				6BE5784A1E67309400623568 /* ichiprt3.c */,
+				6BE5784B1E67309400623568 /* ichiqueu.c */,
+				6BE5784C1E67309400623568 /* ichiread.c */,
+				6BE5784D1E67309400623568 /* ichiring.c */,
+				6BE5784E1E67309400623568 /* ichirvr1.c */,
+				6BE5784F1E67309400623568 /* ichirvr2.c */,
+				6BE578501E67309400623568 /* ichirvr3.c */,
+				6BE578511E67309400623568 /* ichirvr4.c */,
+				6BE578521E67309400623568 /* ichirvr5.c */,
+				6BE578531E67309400623568 /* ichirvr6.c */,
+				6BE578541E67309400623568 /* ichirvr7.c */,
+				6BE578551E67309400623568 /* ichisort.c */,
+				6BE578561E67309400623568 /* ichister.c */,
+				6BE578571E67309400623568 /* ichitaut.c */,
+				6BE578581E67309400623568 /* ikey_base26.c */,
+				6BE578591E67309400623568 /* ikey_dll.c */,
+				6BE5785A1E67309400623568 /* inchi_gui.c */,
+				6BE5785B1E67309400623568 /* mol_fmt1.c */,
+				6BE5785C1E67309400623568 /* mol_fmt2.c */,
+				6BE5785D1E67309400623568 /* mol_fmt3.c */,
+				6BE5785E1E67309400623568 /* mol_fmt4.c */,
+				6BE5785F1E67309400623568 /* mol2atom.c */,
+				6BE578601E67309400623568 /* readinch.c */,
+				6BE578611E67309400623568 /* runichi.c */,
+				6BE578621E67309400623568 /* runichi2.c */,
+				6BE578631E67309400623568 /* runichi3.c */,
+				6BE578641E67309400623568 /* runichi4.c */,
+				6BE578651E67309400623568 /* sha2.c */,
+				6BE578661E67309400623568 /* strutil.c */,
+				6BE578671E67309400623568 /* util.c */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		6BE578A81E67327900623568 /* mol2inchi */ = {
+			isa = PBXGroup;
+			children = (
+				6BE578A91E67327900623568 /* main.c */,
+			);
+			path = mol2inchi;
+			sourceTree = "<group>";
+		};
+		6BE578B81E6738F500623568 /* lua-inchi */ = {
+			isa = PBXGroup;
+			children = (
+				6BE578B91E67393300623568 /* lua_inchi.c */,
+			);
+			name = "lua-inchi";
+			sourceTree = "<group>";
+		};
+		6BE578DA1E674B4200623568 /* src2 */ = {
+			isa = PBXGroup;
+			children = (
+				6BE578CE1E674B3800623568 /* ichilnct.c */,
+				6BE578CF1E674B3800623568 /* inchi_dll_a.c */,
+				6BE578D01E674B3800623568 /* inchi_dll_a2.c */,
+				6BE578D11E674B3800623568 /* inchi_dll_b.c */,
+				6BE578D21E674B3800623568 /* inchi_dll_main.c */,
+				6BE578D31E674B3800623568 /* inchi_dll.c */,
+			);
+			name = src2;
+			sourceTree = "<group>";
+		};
+		6BE578DB1E674B4F00623568 /* src3 */ = {
+			isa = PBXGroup;
+			children = (
+				6BE578DC1E674B6C00623568 /* ichi_bns.c */,
+				6BE578DD1E674B6C00623568 /* ichi_io.c */,
+				6BE578DE1E674B6C00623568 /* ichican2.c */,
+				6BE578DF1E674B6C00623568 /* ichicano.c */,
+				6BE578E01E674B6C00623568 /* ichicans.c */,
+				6BE578E11E674B6C00623568 /* ichierr.c */,
+				6BE578E21E674B6C00623568 /* ichiisot.c */,
+				6BE578E31E674B6C00623568 /* ichimak2.c */,
+				6BE578E41E674B6C00623568 /* ichimake.c */,
+				6BE578E51E674B6C00623568 /* ichimap1.c */,
+				6BE578E61E674B6C00623568 /* ichimap2.c */,
+				6BE578E71E674B6C00623568 /* ichimap4.c */,
+				6BE578E81E674B6C00623568 /* ichinorm.c */,
+				6BE578E91E674B6C00623568 /* ichiparm.c */,
+				6BE578EA1E674B6C00623568 /* ichiprt1.c */,
+				6BE578EB1E674B6C00623568 /* ichiprt2.c */,
+				6BE578EC1E674B6C00623568 /* ichiprt3.c */,
+				6BE578ED1E674B6C00623568 /* ichiqueu.c */,
+				6BE578EE1E674B6C00623568 /* ichiread.c */,
+				6BE578EF1E674B6C00623568 /* ichiring.c */,
+				6BE578F01E674B6C00623568 /* ichirvr1.c */,
+				6BE578F11E674B6C00623568 /* ichirvr2.c */,
+				6BE578F21E674B6C00623568 /* ichirvr3.c */,
+				6BE578F31E674B6C00623568 /* ichirvr4.c */,
+				6BE578F41E674B6C00623568 /* ichirvr5.c */,
+				6BE578F51E674B6C00623568 /* ichirvr6.c */,
+				6BE578F61E674B6C00623568 /* ichirvr7.c */,
+				6BE578F71E674B6C00623568 /* ichisort.c */,
+				6BE578F81E674B6C00623568 /* ichister.c */,
+				6BE578F91E674B6C00623568 /* ichitaut.c */,
+				6BE578FA1E674B6C00623568 /* ikey_base26.c */,
+				6BE578FB1E674B6C00623568 /* ikey_dll.c */,
+				6BE578FC1E674B6C00623568 /* inchi_gui.c */,
+				6BE578FD1E674B6C00623568 /* mol_fmt1.c */,
+				6BE578FE1E674B6C00623568 /* mol_fmt2.c */,
+				6BE578FF1E674B6C00623568 /* mol_fmt3.c */,
+				6BE579001E674B6C00623568 /* mol_fmt4.c */,
+				6BE579011E674B6C00623568 /* mol2atom.c */,
+				6BE579021E674B6C00623568 /* readinch.c */,
+				6BE579031E674B6C00623568 /* runichi.c */,
+				6BE579041E674B6C00623568 /* runichi2.c */,
+				6BE579051E674B6C00623568 /* runichi3.c */,
+				6BE579061E674B6C00623568 /* runichi4.c */,
+				6BE579071E674B6C00623568 /* sha2.c */,
+				6BE579081E674B6C00623568 /* strutil.c */,
+				6BE579091E674B6C00623568 /* util.c */,
+			);
+			name = src3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6BE578B11E6738DE00623568 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE578C81E674B0A00623568 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6B86FBD51E6E092E00B7335C /* libinchi-static-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B86FBDC1E6E092E00B7335C /* Build configuration list for PBXNativeTarget "libinchi-static-ios" */;
+			buildPhases = (
+				6B86FBD21E6E092E00B7335C /* Sources */,
+				6B86FBD31E6E092E00B7335C /* Frameworks */,
+				6B86FBD41E6E092E00B7335C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libinchi-static-ios";
+			productName = "libinchi-static-ios";
+			productReference = 6B86FBD61E6E092E00B7335C /* libinchi-static-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6B86FC161E6E0A1000B7335C /* lua-inchi-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B86FC1D1E6E0A1000B7335C /* Build configuration list for PBXNativeTarget "lua-inchi-ios" */;
+			buildPhases = (
+				6B86FC131E6E0A1000B7335C /* Sources */,
+				6B86FC141E6E0A1000B7335C /* Frameworks */,
+				6B86FC151E6E0A1000B7335C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B86FC221E6E0A2800B7335C /* PBXTargetDependency */,
+			);
+			name = "lua-inchi-ios";
+			productName = "lua-inchi-ios";
+			productReference = 6B86FC171E6E0A1000B7335C /* liblua-inchi-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6BE578A61E67327900623568 /* mol2inchi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE578AB1E67327900623568 /* Build configuration list for PBXNativeTarget "mol2inchi" */;
+			buildPhases = (
+				6BE578A31E67327900623568 /* Sources */,
+				6BE578A41E67327900623568 /* Frameworks */,
+				6BE578A51E67327900623568 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mol2inchi;
+			productName = mol2inchi;
+			productReference = 6BE578A71E67327900623568 /* mol2inchi */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BE578B21E6738DE00623568 /* lua-inchi-macosx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE578B41E6738DE00623568 /* Build configuration list for PBXNativeTarget "lua-inchi-macosx" */;
+			buildPhases = (
+				6BE578AF1E6738DE00623568 /* Sources */,
+				6BE578B01E6738DE00623568 /* Frameworks */,
+				6BE578B11E6738DE00623568 /* Headers */,
+				6BE578C31E67468E00623568 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BE5793A1E674BDB00623568 /* PBXTargetDependency */,
+			);
+			name = "lua-inchi-macosx";
+			productName = "lua-inchi-macosx";
+			productReference = 6BE578B31E6738DE00623568 /* libluainchi.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		6BE578C91E674B0A00623568 /* libinchi-static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE578CB1E674B0A00623568 /* Build configuration list for PBXNativeTarget "libinchi-static" */;
+			buildPhases = (
+				6BE578C61E674B0A00623568 /* Sources */,
+				6BE578C71E674B0A00623568 /* Frameworks */,
+				6BE578C81E674B0A00623568 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libinchi-static";
+			productName = "libinchi-static";
+			productReference = 6BE578CA1E674B0A00623568 /* liblibinchi-static.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BE578261E672F2100623568 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = acidblob;
+				TargetAttributes = {
+					6B86FBD51E6E092E00B7335C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FSD87P6877;
+						ProvisioningStyle = Automatic;
+					};
+					6B86FC161E6E0A1000B7335C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FSD87P6877;
+						ProvisioningStyle = Automatic;
+					};
+					6BE578A61E67327900623568 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FSD87P6877;
+						ProvisioningStyle = Automatic;
+					};
+					6BE578B21E6738DE00623568 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FSD87P6877;
+						ProvisioningStyle = Automatic;
+					};
+					6BE578C91E674B0A00623568 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FSD87P6877;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6BE578291E672F2100623568 /* Build configuration list for PBXProject "inchi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6BE578251E672F2100623568;
+			productRefGroup = 6BE5782F1E672F2200623568 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BE578A61E67327900623568 /* mol2inchi */,
+				6BE578B21E6738DE00623568 /* lua-inchi-macosx */,
+				6BE578C91E674B0A00623568 /* libinchi-static */,
+				6B86FC161E6E0A1000B7335C /* lua-inchi-ios */,
+				6B86FBD51E6E092E00B7335C /* libinchi-static-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BE578C31E67468E00623568 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "install_name_tool -change liblua.1.dylib \"@executable_path/../Frameworks/liblua.1.dylib\" $TARGET_BUILD_DIR/$EXECUTABLE_PATH";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B86FBD21E6E092E00B7335C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B86FC0D1E6E096C00B7335C /* ichilnct.c in Sources */,
+				6B86FC0E1E6E096C00B7335C /* inchi_dll_a.c in Sources */,
+				6B86FC0F1E6E096C00B7335C /* inchi_dll_a2.c in Sources */,
+				6B86FC101E6E096C00B7335C /* inchi_dll_b.c in Sources */,
+				6B86FC111E6E096C00B7335C /* inchi_dll_main.c in Sources */,
+				6B86FC121E6E096C00B7335C /* inchi_dll.c in Sources */,
+				6B86FBDF1E6E096200B7335C /* ichi_bns.c in Sources */,
+				6B86FBE01E6E096200B7335C /* ichi_io.c in Sources */,
+				6B86FBE11E6E096200B7335C /* ichican2.c in Sources */,
+				6B86FBE21E6E096200B7335C /* ichicano.c in Sources */,
+				6B86FBE31E6E096200B7335C /* ichicans.c in Sources */,
+				6B86FBE41E6E096200B7335C /* ichierr.c in Sources */,
+				6B86FBE51E6E096200B7335C /* ichiisot.c in Sources */,
+				6B86FBE61E6E096200B7335C /* ichimak2.c in Sources */,
+				6B86FBE71E6E096200B7335C /* ichimake.c in Sources */,
+				6B86FBE81E6E096200B7335C /* ichimap1.c in Sources */,
+				6B86FBE91E6E096200B7335C /* ichimap2.c in Sources */,
+				6B86FBEA1E6E096200B7335C /* ichimap4.c in Sources */,
+				6B86FBEB1E6E096200B7335C /* ichinorm.c in Sources */,
+				6B86FBEC1E6E096200B7335C /* ichiparm.c in Sources */,
+				6B86FBED1E6E096200B7335C /* ichiprt1.c in Sources */,
+				6B86FBEE1E6E096200B7335C /* ichiprt2.c in Sources */,
+				6B86FBEF1E6E096200B7335C /* ichiprt3.c in Sources */,
+				6B86FBF01E6E096200B7335C /* ichiqueu.c in Sources */,
+				6B86FBF11E6E096200B7335C /* ichiread.c in Sources */,
+				6B86FBF21E6E096200B7335C /* ichiring.c in Sources */,
+				6B86FBF31E6E096200B7335C /* ichirvr1.c in Sources */,
+				6B86FBF41E6E096200B7335C /* ichirvr2.c in Sources */,
+				6B86FBF51E6E096200B7335C /* ichirvr3.c in Sources */,
+				6B86FBF61E6E096200B7335C /* ichirvr4.c in Sources */,
+				6B86FBF71E6E096200B7335C /* ichirvr5.c in Sources */,
+				6B86FBF81E6E096200B7335C /* ichirvr6.c in Sources */,
+				6B86FBF91E6E096200B7335C /* ichirvr7.c in Sources */,
+				6B86FBFA1E6E096200B7335C /* ichisort.c in Sources */,
+				6B86FBFB1E6E096200B7335C /* ichister.c in Sources */,
+				6B86FBFC1E6E096200B7335C /* ichitaut.c in Sources */,
+				6B86FBFD1E6E096200B7335C /* ikey_base26.c in Sources */,
+				6B86FBFE1E6E096200B7335C /* ikey_dll.c in Sources */,
+				6B86FBFF1E6E096200B7335C /* inchi_gui.c in Sources */,
+				6B86FC001E6E096200B7335C /* mol_fmt1.c in Sources */,
+				6B86FC011E6E096200B7335C /* mol_fmt2.c in Sources */,
+				6B86FC021E6E096200B7335C /* mol_fmt3.c in Sources */,
+				6B86FC031E6E096200B7335C /* mol_fmt4.c in Sources */,
+				6B86FC041E6E096200B7335C /* mol2atom.c in Sources */,
+				6B86FC051E6E096200B7335C /* readinch.c in Sources */,
+				6B86FC061E6E096200B7335C /* runichi.c in Sources */,
+				6B86FC071E6E096200B7335C /* runichi2.c in Sources */,
+				6B86FC081E6E096200B7335C /* runichi3.c in Sources */,
+				6B86FC091E6E096200B7335C /* runichi4.c in Sources */,
+				6B86FC0A1E6E096200B7335C /* sha2.c in Sources */,
+				6B86FC0B1E6E096200B7335C /* strutil.c in Sources */,
+				6B86FC0C1E6E096200B7335C /* util.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B86FC131E6E0A1000B7335C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B86FC231E6E0A4000B7335C /* lua_inchi.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE578A31E67327900623568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE578AA1E67327900623568 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE578AF1E6738DE00623568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE578BB1E67393300623568 /* lua_inchi.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE578C61E674B0A00623568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE578D41E674B3800623568 /* ichilnct.c in Sources */,
+				6BE578D51E674B3800623568 /* inchi_dll_a.c in Sources */,
+				6BE5790A1E674B6C00623568 /* ichi_bns.c in Sources */,
+				6BE5790B1E674B6C00623568 /* ichi_io.c in Sources */,
+				6BE5790C1E674B6C00623568 /* ichican2.c in Sources */,
+				6BE5790D1E674B6C00623568 /* ichicano.c in Sources */,
+				6BE5790E1E674B6C00623568 /* ichicans.c in Sources */,
+				6BE5790F1E674B6C00623568 /* ichierr.c in Sources */,
+				6BE579101E674B6C00623568 /* ichiisot.c in Sources */,
+				6BE579111E674B6C00623568 /* ichimak2.c in Sources */,
+				6BE579121E674B6C00623568 /* ichimake.c in Sources */,
+				6BE579131E674B6C00623568 /* ichimap1.c in Sources */,
+				6BE579141E674B6C00623568 /* ichimap2.c in Sources */,
+				6BE579151E674B6C00623568 /* ichimap4.c in Sources */,
+				6BE579161E674B6C00623568 /* ichinorm.c in Sources */,
+				6BE579171E674B6C00623568 /* ichiparm.c in Sources */,
+				6BE579181E674B6C00623568 /* ichiprt1.c in Sources */,
+				6BE579191E674B6C00623568 /* ichiprt2.c in Sources */,
+				6BE5791A1E674B6C00623568 /* ichiprt3.c in Sources */,
+				6BE5791B1E674B6C00623568 /* ichiqueu.c in Sources */,
+				6BE5791C1E674B6C00623568 /* ichiread.c in Sources */,
+				6BE5791D1E674B6C00623568 /* ichiring.c in Sources */,
+				6BE5791E1E674B6C00623568 /* ichirvr1.c in Sources */,
+				6BE5791F1E674B6C00623568 /* ichirvr2.c in Sources */,
+				6BE579201E674B6C00623568 /* ichirvr3.c in Sources */,
+				6BE579211E674B6C00623568 /* ichirvr4.c in Sources */,
+				6BE579221E674B6C00623568 /* ichirvr5.c in Sources */,
+				6BE579231E674B6C00623568 /* ichirvr6.c in Sources */,
+				6BE579241E674B6C00623568 /* ichirvr7.c in Sources */,
+				6BE579251E674B6C00623568 /* ichisort.c in Sources */,
+				6BE579261E674B6C00623568 /* ichister.c in Sources */,
+				6BE579271E674B6C00623568 /* ichitaut.c in Sources */,
+				6BE579281E674B6C00623568 /* ikey_base26.c in Sources */,
+				6BE579291E674B6C00623568 /* ikey_dll.c in Sources */,
+				6BE5792A1E674B6C00623568 /* inchi_gui.c in Sources */,
+				6BE5792B1E674B6C00623568 /* mol_fmt1.c in Sources */,
+				6BE5792C1E674B6C00623568 /* mol_fmt2.c in Sources */,
+				6BE5792D1E674B6C00623568 /* mol_fmt3.c in Sources */,
+				6BE5792E1E674B6C00623568 /* mol_fmt4.c in Sources */,
+				6BE5792F1E674B6C00623568 /* mol2atom.c in Sources */,
+				6BE579301E674B6C00623568 /* readinch.c in Sources */,
+				6BE579311E674B6C00623568 /* runichi.c in Sources */,
+				6BE579321E674B6C00623568 /* runichi2.c in Sources */,
+				6BE579331E674B6C00623568 /* runichi3.c in Sources */,
+				6BE579341E674B6C00623568 /* runichi4.c in Sources */,
+				6BE579351E674B6C00623568 /* sha2.c in Sources */,
+				6BE579361E674B6C00623568 /* strutil.c in Sources */,
+				6BE579371E674B6C00623568 /* util.c in Sources */,
+				6BE578D61E674B3800623568 /* inchi_dll_a2.c in Sources */,
+				6BE578D71E674B3800623568 /* inchi_dll_b.c in Sources */,
+				6BE578D81E674B3800623568 /* inchi_dll_main.c in Sources */,
+				6BE578D91E674B3800623568 /* inchi_dll.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B86FC221E6E0A2800B7335C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B86FBD51E6E092E00B7335C /* libinchi-static-ios */;
+			targetProxy = 6B86FC211E6E0A2800B7335C /* PBXContainerItemProxy */;
+		};
+		6BE5793A1E674BDB00623568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BE578C91E674B0A00623568 /* libinchi-static */;
+			targetProxy = 6BE579391E674BDB00623568 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6B86FBDD1E6E092E00B7335C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = FSD87P6877;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				OTHER_CFLAGS = "-DTARGET_API_LIB";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_MODULE_NAME = inchi_static_ios;
+				PRODUCT_NAME = "inchi-static-ios";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6B86FBDE1E6E092E00B7335C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = FSD87P6877;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				OTHER_CFLAGS = "-DTARGET_API_LIB";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_MODULE_NAME = inchi_static_ios;
+				PRODUCT_NAME = "inchi-static-ios";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B86FC1E1E6E0A1000B7335C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = FSD87P6877;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6B86FC1F1E6E0A1000B7335C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = FSD87P6877;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BE578301E672F2200623568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6BE578311E672F2200623568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6BE578AC1E67327900623568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FSD87P6877;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		6BE578AD1E67327900623568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FSD87P6877;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		6BE578B51E6738DE00623568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FSD87P6877;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "";
+				LD_DYLIB_INSTALL_NAME = "$(EXECUTABLE_PATH)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lua-inchi/gideros/lib/desktop",
+				);
+				PRODUCT_NAME = luainchi;
+			};
+			name = Debug;
+		};
+		6BE578B61E6738DE00623568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FSD87P6877;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "";
+				LD_DYLIB_INSTALL_NAME = "$(EXECUTABLE_PATH)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lua-inchi/gideros/lib/desktop",
+				);
+				PRODUCT_NAME = luainchi;
+			};
+			name = Release;
+		};
+		6BE578CC1E674B0A00623568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FSD87P6877;
+				EXECUTABLE_PREFIX = lib;
+				OTHER_CFLAGS = "-DTARGET_API_LIB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BE578CD1E674B0A00623568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FSD87P6877;
+				EXECUTABLE_PREFIX = lib;
+				OTHER_CFLAGS = "-DTARGET_API_LIB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B86FBDC1E6E092E00B7335C /* Build configuration list for PBXNativeTarget "libinchi-static-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B86FBDD1E6E092E00B7335C /* Debug */,
+				6B86FBDE1E6E092E00B7335C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B86FC1D1E6E0A1000B7335C /* Build configuration list for PBXNativeTarget "lua-inchi-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B86FC1E1E6E0A1000B7335C /* Debug */,
+				6B86FC1F1E6E0A1000B7335C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE578291E672F2100623568 /* Build configuration list for PBXProject "inchi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE578301E672F2200623568 /* Debug */,
+				6BE578311E672F2200623568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE578AB1E67327900623568 /* Build configuration list for PBXNativeTarget "mol2inchi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE578AC1E67327900623568 /* Debug */,
+				6BE578AD1E67327900623568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE578B41E6738DE00623568 /* Build configuration list for PBXNativeTarget "lua-inchi-macosx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE578B51E6738DE00623568 /* Debug */,
+				6BE578B61E6738DE00623568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE578CB1E674B0A00623568 /* Build configuration list for PBXNativeTarget "libinchi-static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE578CC1E674B0A00623568 /* Debug */,
+				6BE578CD1E674B0A00623568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BE578261E672F2100623568 /* Project object */;
+}

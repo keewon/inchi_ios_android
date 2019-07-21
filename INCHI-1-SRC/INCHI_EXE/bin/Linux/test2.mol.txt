@@ -1,0 +1,4 @@
+* Input_File: "test2.mol"
+Structure: 1
+InChI=1S/C2H2/c1-2/h1-2H
+AuxInfo=1/0/N:3,4/E:(1,2)/rA:4nHHCC/rB:;s1;s2t3;/rC:;;;;

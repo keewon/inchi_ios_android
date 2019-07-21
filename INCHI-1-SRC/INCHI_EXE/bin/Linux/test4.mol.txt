@@ -1,0 +1,4 @@
+* Input_File: "test4.mol"
+Structure: 1
+InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2
+AuxInfo=1/0/N:3,7,13,19,15,10,2,17,23,21,12,9/rA:24nHOCHHHCHOCHOCHCHOHCHOHOH/rB:s1;s2;s3;s3;;s3;s7;s7;s9;s10;s6s10;s7;s13;s10;s15;s13;;s13s15;s19;s15;s17;s18s19;s21;/rC:;;;;;;;;;;;;;;;;;;;;;;;;
