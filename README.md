@@ -30,3 +30,6 @@ After
 ```
 #if defined(COMPILE_ANSI_ONLY)
 ```
+
+# To build lua-inchi - Gideros Lua Plugin
+Copy /Applications/Gideros\ Studio/Sdk/* under lua-inchi/gideros

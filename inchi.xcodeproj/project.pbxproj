@@ -60,10 +60,11 @@
 		6B86FC111E6E096C00B7335C /* inchi_dll_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578D21E674B3800623568 /* inchi_dll_main.c */; };
 		6B86FC121E6E096C00B7335C /* inchi_dll.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578D31E674B3800623568 /* inchi_dll.c */; };
 		6B86FC201E6E0A1E00B7335C /* libinchi-static-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B86FBD61E6E092E00B7335C /* libinchi-static-ios.a */; };
-		6B86FC231E6E0A4000B7335C /* lua_inchi.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578B91E67393300623568 /* lua_inchi.c */; };
-		6BA1ECFC1E674D3700803C79 /* liblua.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE578BF1E67409300623568 /* liblua.1.dylib */; };
+		6BDB909C289687BA000784C8 /* lua_inchi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BDB909B289687BA000784C8 /* lua_inchi.cpp */; };
+		6BDB909D289687BA000784C8 /* lua_inchi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BDB909B289687BA000784C8 /* lua_inchi.cpp */; };
+		6BDB90A0289689B7000784C8 /* liblua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDB909F289689B7000784C8 /* liblua.a */; };
+		6BDB90A2289689D3000784C8 /* libgideros.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDB90A1289689D3000784C8 /* libgideros.a */; };
 		6BE578AA1E67327900623568 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578A91E67327900623568 /* main.c */; };
-		6BE578BB1E67393300623568 /* lua_inchi.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578B91E67393300623568 /* lua_inchi.c */; };
 		6BE578D41E674B3800623568 /* ichilnct.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578CE1E674B3800623568 /* ichilnct.c */; };
 		6BE578D51E674B3800623568 /* inchi_dll_a.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578CF1E674B3800623568 /* inchi_dll_a.c */; };
 		6BE578D61E674B3800623568 /* inchi_dll_a2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BE578D01E674B3800623568 /* inchi_dll_a2.c */; };
@@ -169,6 +170,9 @@
 /* Begin PBXFileReference section */
 		6B86FBD61E6E092E00B7335C /* libinchi-static-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libinchi-static-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B86FC171E6E0A1000B7335C /* liblua-inchi-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblua-inchi-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDB909B289687BA000784C8 /* lua_inchi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lua_inchi.cpp; path = "lua-inchi/lua_inchi.cpp"; sourceTree = "<group>"; };
+		6BDB909F289689B7000784C8 /* liblua.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblua.a; path = "lua-inchi/gideros/lib/desktop/liblua.a"; sourceTree = "<group>"; };
+		6BDB90A1289689D3000784C8 /* libgideros.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgideros.a; path = "lua-inchi/gideros/lib/desktop/libgideros.a"; sourceTree = "<group>"; };
 		6BE5783A1E67309400623568 /* ichi_bns.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichi_bns.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichi_bns.c"; sourceTree = "<group>"; };
 		6BE5783B1E67309400623568 /* ichi_io.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichi_io.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichi_io.c"; sourceTree = "<group>"; };
 		6BE5783C1E67309400623568 /* ichican2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichican2.c; path = "INCHI-1-SRC/INCHI_BASE/src/ichican2.c"; sourceTree = "<group>"; };
@@ -224,7 +228,6 @@
 		6BE578A71E67327900623568 /* mol2inchi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mol2inchi; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BE578A91E67327900623568 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		6BE578B31E6738DE00623568 /* libluainchi.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libluainchi.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BE578B91E67393300623568 /* lua_inchi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lua_inchi.c; path = "lua-inchi/lua_inchi.c"; sourceTree = "<group>"; };
 		6BE578BF1E67409300623568 /* liblua.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblua.1.dylib; path = "lua-inchi/gideros/lib/desktop/liblua.1.dylib"; sourceTree = "<group>"; };
 		6BE578CA1E674B0A00623568 /* liblibinchi-static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblibinchi-static.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BE578CE1E674B3800623568 /* ichilnct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ichilnct.c; path = "INCHI-1-SRC/INCHI_API/libinchi/src/ichilnct.c"; sourceTree = "<group>"; };
@@ -308,8 +311,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BDB90A2289689D3000784C8 /* libgideros.a in Frameworks */,
+				6BDB90A0289689B7000784C8 /* liblua.a in Frameworks */,
 				6BE579381E674BCE00623568 /* liblibinchi-static.a in Frameworks */,
-				6BA1ECFC1E674D3700803C79 /* liblua.1.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +327,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BDB909E289689B7000784C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BDB90A1289689D3000784C8 /* libgideros.a */,
+				6BDB909F289689B7000784C8 /* liblua.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6BE578251E672F2100623568 = {
 			isa = PBXGroup;
 			children = (
@@ -333,6 +346,7 @@
 				6BE578A21E67318500623568 /* src */,
 				6BE578A81E67327900623568 /* mol2inchi */,
 				6BE5782F1E672F2200623568 /* Products */,
+				6BDB909E289689B7000784C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -418,7 +432,7 @@
 		6BE578B81E6738F500623568 /* lua-inchi */ = {
 			isa = PBXGroup;
 			children = (
-				6BE578B91E67393300623568 /* lua_inchi.c */,
+				6BDB909B289687BA000784C8 /* lua_inchi.cpp */,
 			);
 			name = "lua-inchi";
 			sourceTree = "<group>";
@@ -638,6 +652,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 6BE578251E672F2100623568;
@@ -666,7 +681,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "install_name_tool -change liblua.1.dylib \"@executable_path/../Frameworks/liblua.1.dylib\" $TARGET_BUILD_DIR/$EXECUTABLE_PATH";
+			shellScript = "install_name_tool -change liblua.1.dylib \"@executable_path/../Frameworks/liblua.1.dylib\" $TARGET_BUILD_DIR/$EXECUTABLE_PATH\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -734,7 +749,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B86FC231E6E0A4000B7335C /* lua_inchi.c in Sources */,
+				6BDB909D289687BA000784C8 /* lua_inchi.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,7 +765,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BE578BB1E67393300623568 /* lua_inchi.c in Sources */,
+				6BDB909C289687BA000784C8 /* lua_inchi.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -865,6 +880,10 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = FSD87P6877;
+				HEADER_SEARCH_PATHS = (
+					"INCHI-1-SRC/INCHI_BASE/src",
+					"lua-inchi/gideros/include",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -878,6 +897,10 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = FSD87P6877;
+				HEADER_SEARCH_PATHS = (
+					"INCHI-1-SRC/INCHI_BASE/src",
+					"lua-inchi/gideros/include",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -927,7 +950,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -968,7 +991,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -999,13 +1022,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"INCHI-1-SRC/INCHI_BASE/src",
+					"lua-inchi/gideros/include",
+				);
 				INSTALL_PATH = "";
 				LD_DYLIB_INSTALL_NAME = "$(EXECUTABLE_PATH)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/lua-inchi/gideros/lib/desktop",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = luainchi;
 			};
 			name = Debug;
@@ -1017,13 +1044,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"INCHI-1-SRC/INCHI_BASE/src",
+					"lua-inchi/gideros/include",
+				);
 				INSTALL_PATH = "";
 				LD_DYLIB_INSTALL_NAME = "$(EXECUTABLE_PATH)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/lua-inchi/gideros/lib/desktop",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = luainchi;
 			};
 			name = Release;
